@@ -10,9 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int currentLane;
     [SerializeField] public int[] lanesXCoordinate;
     public int xDirection = 0; 
-    public float forwardSpeed = 0.04F; 
+    public float forwardSpeed = 0.80F; 
 
-    [SerializeField] private float speedIncreaseRate = 0.05F;
+    [SerializeField] private float speedIncreaseRate = 50F;
 
     public float ForwardSpeed
     {
