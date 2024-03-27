@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float proximity = 0.1f;
     [SerializeField] private int currentLane;
     [SerializeField] public int[] lanesXCoordinate;
-    public int xDirection = 0;
+    public int xDirection = 0; 
     public float forwardSpeed = 0.04F; 
 
     [SerializeField] private float speedIncreaseRate = 0.05F;
